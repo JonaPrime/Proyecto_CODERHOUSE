@@ -695,9 +695,14 @@ $text-color: black;
         border-radius: 15px;
     }
 
+    .texto-principal p{
+        font-size: 20px;
+    }
+
     .contenido-principal-2 .parrafo-1{
         grid-column: 1 / 4;
         grid-row: 1 / 2;
+        font-size: 20px;
     }
 
     .contenido-principal-2 .imagen-1{
@@ -753,6 +758,7 @@ $text-color: black;
     .contenido-principal-2 .parrafo-2{
         grid-column: 1 / 4;
         grid-row: 5 / 6;
+        text-align: center;
     }
 
 
