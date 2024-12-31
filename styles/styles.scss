@@ -642,6 +642,36 @@ $text-color: black;
 }
 
 
+/*Contacto*/
+.section-contacto{
+    padding: 10px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.saludo{
+    font-size: 16px;
+    color: white;
+}
+
+.link-whats{
+    text-decoration: none;
+    text-align: center;
+    background-color: #128C7E;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.mapa-parral{
+    width: 100%;
+}
+
 @media screen and (min-width: 768px){
     .contenedor-main{
         display: grid;
@@ -1009,6 +1039,26 @@ $text-color: black;
             padding: 10px;
             font-size: 16px;
         }
+    }
+
+    /*Contacto*/
+    .saludo{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .link-whats{
+        width: 20%;
+        font-size: 25px;
+        transition: 0.5s;
+    }
+    .link-whats:hover{
+        box-shadow: 0 5px 10px gray;
+        scale: 1.1;
+    }
+
+    .mapa-parral{
+        width: 50%;
     }
 
 }
